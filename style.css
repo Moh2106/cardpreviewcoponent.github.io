@@ -1,0 +1,99 @@
+.contains
+{
+  display: flex;
+  color: white;
+  font-size: 15px;
+  margin: 10%;
+}
+
+p
+{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+h1
+{
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: bold;
+}
+.sedans
+{
+  background: hsl(31, 77%, 52%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.suvs
+{
+  background: hsl(184, 100%, 22%);
+}
+
+.luxury
+{
+  background:  hsl(179, 100%, 13%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.sedans, .suvs, .luxury
+{
+  height: 400px;
+  width: 20%;
+  padding: 20px;
+}
+
+button
+{
+  border-radius: 50px;
+  color: hsl(0, 0%, 95%);
+  padding: 5px;
+}
+
+.button1
+{
+  color: hsl(31, 77%, 52%);
+}
+
+.button2
+{
+  color:  hsl(184, 100%, 22%);
+}
+
+.button3
+{
+  color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 375px) {
+  .contains
+  {
+    display: block;
+    color: white;
+    font-size: 15px;
+    margin: 10%;
+  }
+
+  .sedans, .suvs, .luxury
+  {
+    height: 400px;
+    width: 50%;
+    padding: 20px;
+  }
+
+  .sedans
+  {
+    background: hsl(31, 77%, 52%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .luxury
+  {
+    background:  hsl(179, 100%, 13%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 0px;
+  }
+}
